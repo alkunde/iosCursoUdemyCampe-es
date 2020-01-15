@@ -65,10 +65,11 @@
 		9119F18E23CD567E0019F98D /* WinnersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9119F18D23CD567E0019F98D /* WinnersTableViewController.swift */; };
 		9119F19123CD56E60019F98D /* WorldCupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9119F19023CD56E60019F98D /* WorldCupViewController.swift */; };
 		9119F19323CD57300019F98D /* WorldCup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9119F19223CD57300019F98D /* WorldCup.swift */; };
+		912F314A23CF2A1200708DBB /* WorldCupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912F314923CF2A1200708DBB /* WorldCupTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9119F11023CD4F4D0019F98D /* CampeoesCopa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CampeoesCopa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9119F11023CD4F4D0019F98D /* Campeões.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Campeões.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9119F11323CD4F4D0019F98D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9119F11523CD4F4D0019F98D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9119F11A23CD4F4D0019F98D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -128,6 +129,7 @@
 		9119F18D23CD567E0019F98D /* WinnersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnersTableViewController.swift; sourceTree = "<group>"; };
 		9119F19023CD56E60019F98D /* WorldCupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCupViewController.swift; sourceTree = "<group>"; };
 		9119F19223CD57300019F98D /* WorldCup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCup.swift; sourceTree = "<group>"; };
+		912F314923CF2A1200708DBB /* WorldCupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCupTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,7 +154,7 @@
 		9119F11123CD4F4D0019F98D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9119F11023CD4F4D0019F98D /* CampeoesCopa.app */,
+				9119F11023CD4F4D0019F98D /* Campeões.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -243,6 +245,7 @@
 			children = (
 				9119F18D23CD567E0019F98D /* WinnersTableViewController.swift */,
 				9119F19023CD56E60019F98D /* WorldCupViewController.swift */,
+				912F314923CF2A1200708DBB /* WorldCupTableViewCell.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -272,7 +275,7 @@
 			);
 			name = CampeoesCopa;
 			productName = CampeoesCopa;
-			productReference = 9119F11023CD4F4D0019F98D /* CampeoesCopa.app */;
+			productReference = 9119F11023CD4F4D0019F98D /* Campeões.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -379,6 +382,7 @@
 				9119F18E23CD567E0019F98D /* WinnersTableViewController.swift in Sources */,
 				9119F11423CD4F4D0019F98D /* AppDelegate.swift in Sources */,
 				9119F19323CD57300019F98D /* WorldCup.swift in Sources */,
+				912F314A23CF2A1200708DBB /* WorldCupTableViewCell.swift in Sources */,
 				9119F19123CD56E60019F98D /* WorldCupViewController.swift in Sources */,
 				9119F11623CD4F4D0019F98D /* SceneDelegate.swift in Sources */,
 			);
@@ -532,7 +536,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.curso.ornelas.CampeoesCopa;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Campeões";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -550,7 +554,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.curso.ornelas.CampeoesCopa;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Campeões";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

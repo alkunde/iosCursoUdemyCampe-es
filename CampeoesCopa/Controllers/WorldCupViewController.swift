@@ -9,6 +9,8 @@
 import UIKit
 
 class WorldCupViewController: UIViewController {
+    
+    var worldCup: WorldCup!
 
     override func viewDidLoad() {
         super.viewDidLoad()
