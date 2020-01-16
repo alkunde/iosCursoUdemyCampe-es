@@ -66,6 +66,7 @@
 		9119F19123CD56E60019F98D /* WorldCupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9119F19023CD56E60019F98D /* WorldCupViewController.swift */; };
 		9119F19323CD57300019F98D /* WorldCup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9119F19223CD57300019F98D /* WorldCup.swift */; };
 		912F314A23CF2A1200708DBB /* WorldCupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912F314923CF2A1200708DBB /* WorldCupTableViewCell.swift */; };
+		912F314C23D001E600708DBB /* GamesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912F314B23D001E600708DBB /* GamesTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -130,6 +131,7 @@
 		9119F19023CD56E60019F98D /* WorldCupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCupViewController.swift; sourceTree = "<group>"; };
 		9119F19223CD57300019F98D /* WorldCup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCup.swift; sourceTree = "<group>"; };
 		912F314923CF2A1200708DBB /* WorldCupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCupTableViewCell.swift; sourceTree = "<group>"; };
+		912F314B23D001E600708DBB /* GamesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,6 +247,7 @@
 			children = (
 				9119F18D23CD567E0019F98D /* WinnersTableViewController.swift */,
 				9119F19023CD56E60019F98D /* WorldCupViewController.swift */,
+				912F314B23D001E600708DBB /* GamesTableViewCell.swift */,
 				912F314923CF2A1200708DBB /* WorldCupTableViewCell.swift */,
 			);
 			path = Controllers;
@@ -382,6 +385,7 @@
 				9119F18E23CD567E0019F98D /* WinnersTableViewController.swift in Sources */,
 				9119F11423CD4F4D0019F98D /* AppDelegate.swift in Sources */,
 				9119F19323CD57300019F98D /* WorldCup.swift in Sources */,
+				912F314C23D001E600708DBB /* GamesTableViewCell.swift in Sources */,
 				912F314A23CF2A1200708DBB /* WorldCupTableViewCell.swift in Sources */,
 				9119F19123CD56E60019F98D /* WorldCupViewController.swift in Sources */,
 				9119F11623CD4F4D0019F98D /* SceneDelegate.swift in Sources */,
